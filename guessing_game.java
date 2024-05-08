@@ -49,7 +49,6 @@ public class guessing_game {
 
     public void play(){
         oNum = random_num();
-        System.out.println(oNum);
         int num = 0;
         Scanner sc = new Scanner(System.in);
         while (num!=oNum) {
